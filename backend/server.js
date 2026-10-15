@@ -4,7 +4,7 @@ import http from 'node:http'
 import registrosRouter from './routes/registros.js'
 
 const app = express()
-const PORT = 8787
+const PORT = 3001
 const HOST = '127.0.0.1'
 
 app.use(cors())
